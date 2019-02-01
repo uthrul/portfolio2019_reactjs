@@ -1,6 +1,4 @@
-# I created a Youtube code along tutorial for this project. Click the link above to view!
-
-# my_portfolio_2019
+# I created a portfolio
 A React based personal portfolio app using create-react-app and React Router v4.
 
 # Tools
