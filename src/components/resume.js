@@ -7,85 +7,79 @@ import Skills from './skills';
 
 class Resume extends Component {
   render() {
-    return(
+    return (
       <div>
         <Grid>
           <Cell col={4}>
-            <div style={{textAlign: 'center'}}>
+            <div style={{ textAlign: 'center' }}>
               <img
-                src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF4uhGqQrsvQ8E4MmuO7aWiB0YklpZSeO9gpguRz6QvajXfFRwpw"
                 alt="avatar"
-                style={{height: '200px'}}
-                 />
+                className="avatar-img-2"
+              />
             </div>
 
-            <h2 style={{paddingTop: '2em'}}>Paul Hanna</h2>
-            <h4 style={{color: 'grey'}}>Programmer</h4>
-            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <h5>Address</h5>
-            <p>1 Hacker Way Menlo Park, 94025</p>
-            <h5>Phone</h5>
-            <p>(123) 456-7890</p>
-            <h5>Email</h5>
-            <p>someone@example.com</p>
-            <h5>Web</h5>
-            <p>mywebsite.com</p>
-            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-          </Cell>
+            <h2 style={{ paddingTop: '2em', fontSize: '30px', fontFamily: 'Anton' }}>Saud Maruli S</h2>
+            <h4 style={{ color: 'grey' ,fontSize: '20px', fontFamily: 'Anton' }}>Programmer</h4>
+            <hr style={{ borderTop: '3px solid #833fb2' }} />
+            <p>
+              Approximately 3 years of experience working as a  part time  computer programmer.
+              Capable of working with a variety of front end.
+              Valuable team members who have experience diagnosing problems and developing solutions.
+              Talented leader with unique ideas and a history of successful contributions in the field.
+              And I really hope to join and increase my ability in your company
+            </p>
+            <hr style={{ borderTop: '3px solid #833fb2' }} />            <hp>Address : </hp>
+            <p>Komplek Cibinong Endah - JL.Raflesia - Perumahan Taman Sukahati Permai Blok-J.10 Cibinong-Bogor </p>
+            <p>Phone: 0813 - 80090865</p>
+            <p>Email: sauthrully@gmail.com</p>
+            <p>Blog: codinghood.herokuapp.com</p>
+            <hr style={{ borderTop: '3px solid #833fb2' }} />          </Cell>
           <Cell className="resume-right-col" col={8}>
-            <h2>Education</h2>
 
-
+            <h2 style={{ fontSize: '30px', fontFamily: 'Anton' }}>Education</h2>
             <Education
-              startYear={2002}
-              endYear={2006}
-              schoolName="My University"
-              schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-               />
-
-               <Education
-                 startYear={2007}
-                 endYear={2009}
-                 schoolName="My 2nd University"
-                 schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-                  />
-                <hr style={{borderTop: '3px solid #e22947'}} />
-
-              <h2>Experience</h2>
-
-            <Experience
               startYear={2009}
-              endYear={2012}
-              jobName="First Job"
-              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              endYear={2016}
+              schoolName="University Mpu Tantulr"
+              schoolDescription="Bachelor of Computer Science / teknik informatika"
               />
 
-              <Experience
-                startYear={2012}
-                endYear={2016}
-                jobName="Second Job"
-                jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-                />
-              <hr style={{borderTop: '3px solid #e22947'}} />
-              <h2>Skills</h2>
-              <Skills
-                skill="javascript"
-                progress={100}
-                />
-                <Skills
-                  skill="HTML/CSS"
-                  progress={80}
-                  />
-                  <Skills
-                    skill="NodeJS"
-                    progress={50}
-                    />
-                    <Skills
-                      skill="React"
-                      progress={25}
-                      />
+            <hr style={{ borderTop: '3px solid #833fb2' }} />
+
+            <h2 style={{ fontSize: '30px', fontFamily: 'Anton' }}>Experience</h2>
+            <Experience
+              startYear={2007}
+              endYear={2015}
+              jobName="Non Programmer Job"
+              jobDescription="Retail Worker"
+               />
+
+            <Experience
+              startYear={2016}
+              endYear={2019}
+              jobName="Programming Part Time Jobs"
+              jobDescription="Creating a simple Web and simple design"
+              />
+
+            <hr style={{ borderTop: '3px solid #833fb2' }} />           
+            <h2 style={{ fontSize: '30px', fontFamily: 'Anton' }}>Skills</h2>
+            <Skills
+              skill="Javascript"
+              progress={25}
+            />
+            <Skills
+              skill="HTML/CSS"
+              progress={80}
+            />
+            <Skills
+              skill="R A I L S"
+              progress={50}
+            />
+            <Skills
+              skill="R E A C T"
+              progress={25}
+            />
 
 
           </Cell>
