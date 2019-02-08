@@ -21,7 +21,7 @@
 }
 
 .projects-grid {
-  display: -webkit-flex;
+  display: flex;
 }
 
 /* Resume Page css */
