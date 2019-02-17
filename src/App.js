@@ -18,7 +18,7 @@ class App extends Component {
                         </Navigation>
                     </Header>
                     <Drawer title="Portfolio">
-                        <Navigation style={{ fontSize: '30px', fontFamily: 'Anton', }}>
+                        <Navigation  style={{ fontSize: '30px', fontFamily: 'Anton', }}>
                             <Link to="/landingpage">Home</Link>
                             <Link to="/resume">Resume</Link>
                             <Link to="/projects"> Example Projects</Link>
@@ -26,7 +26,6 @@ class App extends Component {
                         </Navigation>
                     </Drawer>
                     <Content>
-                        <div className="page-content" />
                         <Main />
                     </Content>
                 </Layout>

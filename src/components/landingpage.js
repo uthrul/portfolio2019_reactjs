@@ -5,7 +5,7 @@ import { Grid, Cell } from 'react-mdl';
 class Landing extends Component {
   render() {
     return (
-      <div style={{ width: '100%', margin: 'auto' }}>
+      <div class="container-fluid">
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
@@ -13,15 +13,12 @@ class Landing extends Component {
               alt="avatar"
               className="avatar-img-1"
             />
-
             <div className="banner-text">
               <h1>Front End</h1>
               <hr />
               <p>React Js | Ruby On rails | React Native | Game</p>
+              
               <div className="social-links">
-                {/* <a href="http://google.com" rel="noonpener norefrrer" target="balnk">
-                  <i className="fa fa-linkedin-square" aria-hidden="true"></i>
-                </a> */}
 
                 {/* github */}
                 <a href="https://github.com/uthrul" rel="noonpener norefrrer" target="balnk">

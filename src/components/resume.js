@@ -20,7 +20,7 @@ class Resume extends Component {
             </div>
 
             <h2 style={{ paddingTop: '2em', fontSize: '30px', fontFamily: 'Anton' }}>Saud Maruli S</h2>
-            <h4 style={{ color: 'grey' ,fontSize: '20px', fontFamily: 'Anton' }}>Programmer</h4>
+            <h4 style={{ color: 'grey', fontSize: '20px', fontFamily: 'Anton' }}>Programmer</h4>
             <hr style={{ borderTop: '3px solid #833fb2' }} />
             <p>
               Approximately 3 years of experience working as a  part time  computer programmer.
@@ -41,9 +41,9 @@ class Resume extends Component {
             <Education
               startYear={2009}
               endYear={2016}
-              schoolName="University Mpu Tantulr"
+              schoolName="University Mpu Tantular"
               schoolDescription="Bachelor of Computer Science / teknik informatika"
-              />
+            />
 
             <hr style={{ borderTop: '3px solid #833fb2' }} />
 
@@ -53,16 +53,16 @@ class Resume extends Component {
               endYear={2015}
               jobName="Non Programmer Job"
               jobDescription="Retail Worker"
-               />
+            />
 
             <Experience
               startYear={2016}
               endYear={2019}
               jobName="Programming Part Time Jobs"
               jobDescription="Creating a simple Web and simple design"
-              />
+            />
 
-            <hr style={{ borderTop: '3px solid #833fb2' }} />           
+            <hr style={{ borderTop: '3px solid #833fb2' }} />
             <h2 style={{ fontSize: '30px', fontFamily: 'Anton' }}>Skills</h2>
             <Skills
               skill="Javascript"
