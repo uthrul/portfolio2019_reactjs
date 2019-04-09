@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,400|Rock+Salt');
+
 .header-color {
   background: #833ab4; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -25,6 +27,12 @@
   width: 105%;
   height: 105%;
   overflow: scroll;
+}
+
+.shadow {
+  /* Use -webkit- only if supporting: Chrome < 54, iOS < 9.3, Android < 4.4.4 */
+  -webkit-filter: drop-shadow( 1px 1px 1px black);
+  filter: drop-shadow( 1px 1px 1px black);
 }
 
 *,
@@ -87,12 +95,13 @@
   height: 550px;
   overflow: scroll;
   background: white;
-  color: black;
+  color: #032327;
+  text-shadow: 3px 3px 3px  #FBAB5A;
   margin-bottom: 20px;
 }
 
 .contact-grid h2 {
-  font-family: "Anton", sans-serif;
+  font-family: 'Rock Salt';
   padding-bottom: 1em;
 }
 
@@ -120,15 +129,22 @@
   height: 250px;
   margin-top: 2cm;
   border-radius: 50%;
+  border: 2px solid orange;
 }
 .avatar-img-2 {
   height: 250px;
   margin-top: 1cm;
   border-radius: 50%;
+  border: 2px solid orange;
 }
 .avatar-img-3 {
   height: 250px;
   border-radius: 50%;
+  border: 2px solid orange;
+}
+
+.navigation{
+  font-family: 'Rock Salt';
 }
 
 .banner-text {
@@ -140,9 +156,11 @@
 }
 
 .banner-text h1 {
-  font-size: 66px;
+  font-family: 'Rock Salt';
+  font-size: 55px;
   font-weight: bold;
   color: white;
+  text-shadow: 2px 2px 2px  #FBAB5A;
 }
 
 .banner-text hr {
@@ -152,7 +170,9 @@
 }
 
 .banner-text p {
+  font-family: 'Rock Salt';
   color: white;
+  text-shadow: 2px 2px 2px  #FBAB5A;
   font-size: 20px;
   padding: 0.5em;
 }

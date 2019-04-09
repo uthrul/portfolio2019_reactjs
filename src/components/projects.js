@@ -195,7 +195,7 @@ class Project extends Component {
     return (
       <div className="category-tabs">
         <div className="category-tabs">
-          <h5 style={{ fontSize: '30px', fontFamily: 'Anton', }}>Example Projects</h5>
+          <h5 style={{ fontSize: '45px', fontFamily: 'Rock Salt', }}>Example Projects</h5>
           <p style={{ fontSize: '15px', fontFamily: 'Anton', fontWeight: 'normal', }}>I am looking for case studies from Udemy, Youtube, Github and Another screencast</p>
         </div>
         <Tabs style={{ fontSize: '30px', fontFamily: 'Anton', }} activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
