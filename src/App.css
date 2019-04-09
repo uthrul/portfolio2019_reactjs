@@ -108,8 +108,10 @@
 }
 
 .contact-list i {
-  font-size: 66px;
-  padding-right: 5rem;
+  font-size: 40px;
+  justify-content: center;
+  padding: 10px;
+  padding-right: 1.5rem;
 }
 
 /* contact page css */
