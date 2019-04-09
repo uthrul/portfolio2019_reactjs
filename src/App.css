@@ -62,6 +62,7 @@
   background: #27221f;
   color: white;
   padding: 2em;
+  border-radius: 20px;
 }
 
 /* contact page css */
@@ -96,13 +97,14 @@
   overflow: scroll;
   background: white;
   color: #032327;
-  text-shadow: 3px 3px 3px  #FBAB5A;
+  border-radius: 20px;
   margin-bottom: 20px;
 }
 
 .contact-grid h2 {
   font-family: 'Rock Salt';
   padding-bottom: 1em;
+  text-shadow: 3px 3px 3px  #FBAB5A;
 }
 
 .contact-grid p {
@@ -132,7 +134,7 @@
   border: 2px solid orange;
 }
 .avatar-img-2 {
-  height: 250px;
+  height: 300px;
   margin-top: 1cm;
   border-radius: 50%;
   border: 2px solid orange;
@@ -140,27 +142,34 @@
 .avatar-img-3 {
   height: 250px;
   border-radius: 50%;
-  border: 2px solid orange;
+  border: 2px solid black;
 }
 
 .navigation{
   font-family: 'Rock Salt';
+  text-shadow: 3px 3px 3px  #FBAB5A;
 }
+
+.resume {
+  font-family: 'Rock Salt';
+  text-shadow: 3px 3px 3px orange;
+}
+
 
 .banner-text {
   background-color: black;
   opacity: 0.8;
   width: 75%;
   margin: auto;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .banner-text h1 {
   font-family: 'Rock Salt';
-  font-size: 55px;
+  font-size: 75px;
   font-weight: bold;
   color: white;
-  text-shadow: 2px 2px 2px  #FBAB5A;
+  text-shadow: 4px 6px 4px  #FBAB5A;
 }
 
 .banner-text hr {
@@ -181,6 +190,7 @@
   justify-content: space-between;
   width: 50%;
   margin: auto;
+  text-shadow: 1px 1px 1px  #FBAB5A;
 }
 
 .social-links i {
