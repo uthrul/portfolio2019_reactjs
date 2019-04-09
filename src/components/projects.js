@@ -127,6 +127,24 @@ class Project extends Component {
             </Card>
           </div>
 
+          <div class="grid-item">
+            {/* rails 5 */}
+            <Card shadow={0} style={{ width: '512px', margin: 'auto' }}>
+              <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://scontent.fcgk9-1.fna.fbcdn.net/v/t1.0-9/52276859_2424960627549078_6132890531895705600_o.jpg?_nc_cat=102&_nc_eui2=AeGcIdKmpldFyEMnx-sLKUrGPlfF_z2J7U9Njo2x7wJzXw0M6tbQ2XrXzehZSDI37OCMwhfjyo1k9SzuoBPc-OXAQkxAgpMvccMJ3wGC4et9ig&_nc_ht=scontent.fcgk9-1.fna&oh=7928a0ec984ecdca95716a0243c91f78&oe=5D28759A) center / cover' }}></CardTitle>
+              <CardText>
+                Food Anthem
+            </CardText>
+              <CardActions border>
+                <a href="https://foodanthem.herokuapp.com/" rel="noonpener norefrrer" target="balnk">
+                  <Button colored>Get Started</Button>
+                </a>
+                <a href="https://github.com/uthrul/portfolio2019_reactjs" rel="noonpener norefrrer" target="balnk">
+                  <Button colored>GitHub</Button>
+                </a>
+              </CardActions>
+            </Card>
+          </div>
+
         </div>
 
       )
@@ -137,7 +155,8 @@ class Project extends Component {
           <div class="grid-item">
             <Card shadow={0} style={{ width: '512px', margin: 'auto' }}>
               <CardTitle style={{
-                color: '#fff', height: '176px', background: 'url(https://image.slidesharecdn.com/slides-180226015341/95/react-native-expo-11-638.jpg?cb=1519610124) center / cover'}}></CardTitle>
+                color: '#fff', height: '176px', background: 'url(https://image.slidesharecdn.com/slides-180226015341/95/react-native-expo-11-638.jpg?cb=1519610124) center / cover'
+              }}></CardTitle>
               <CardText>
                 React native & Expo
           </CardText>
@@ -149,23 +168,23 @@ class Project extends Component {
             </Card>
           </div>
         </div>
-        
+
       )
     } else if (this.state.activeTab === 3) {
       return (
         <div className="projects-grid">
-          <div class="grid-item">          
-          <Card shadow={0} style={{ width: '512px', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://img.itch.zone/aW1hZ2UvODAyNjgvMzc4Mjc3LnBuZw==/347x500/%2FutF%2F%2B.png) center / cover' }}></CardTitle>
-            <CardText>
-              Tower Defense Game
+          <div class="grid-item">
+            <Card shadow={0} style={{ width: '512px', margin: 'auto' }}>
+              <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://img.itch.zone/aW1hZ2UvODAyNjgvMzc4Mjc3LnBuZw==/347x500/%2FutF%2F%2B.png) center / cover' }}></CardTitle>
+              <CardText>
+                Tower Defense Game
           </CardText>
-            <CardActions border>
-              <a >
-                <Button colored>Get Started</Button>
-              </a>
-            </CardActions>
-          </Card>
+              <CardActions border>
+                <a >
+                  <Button colored>Get Started</Button>
+                </a>
+              </CardActions>
+            </Card>
           </div>
         </div>
       )
