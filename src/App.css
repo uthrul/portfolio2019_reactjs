@@ -84,6 +84,7 @@
   overflow: scroll;
   justify-content: center;
   padding-top: 5em;
+  padding-bottom: 5em;
 }
 
 .contact-grid {
@@ -134,7 +135,6 @@
   margin-top: 1cm;
   border-radius: 50%;
   border: 2px solid orange;
-  
 }
 .avatar-img-3 {
   height: 250px;
