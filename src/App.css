@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,400|Rock+Salt');
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,100i,400|Rock+Salt");
 
 .header-color {
   background: #833ab4; /* fallback for old browsers */
@@ -18,21 +18,25 @@
 
 .landing-grid {
   background: #7b4397;
-  background: -webkit-linear-gradient(to right, #dc2430, #7b4397);
+  background: -webkit-linear-gradient(to right, #cf8e93, #7b4397);
   background: linear-gradient(to right, #dc2430, #7b4397);
   text-align: center;
   position: fixed;
   top: 0;
   left: 0;
   width: 105%;
-  height: 105%;
+  height: 100%;
   overflow: scroll;
+}
+
+.brand {
+  margin-left: 25px;
 }
 
 .shadow {
   /* Use -webkit- only if supporting: Chrome < 54, iOS < 9.3, Android < 4.4.4 */
-  -webkit-filter: drop-shadow( 1px 1px 1px black);
-  filter: drop-shadow( 1px 1px 1px black);
+  -webkit-filter: drop-shadow(1px 1px 1px black);
+  filter: drop-shadow(1px 1px 1px black);
 }
 
 *,
@@ -48,12 +52,14 @@
 .projects-grid {
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-start;
+  justify-content: center;
+  border-radius: 15px;
+  overflow: scroll;
 }
 .grid-item {
   flex-basis: 50%;
   position: relative;
-  padding: 10px;
+  padding: 20px;
   box-sizing: border-box;
 }
 
@@ -71,7 +77,7 @@
   margin: auto;
   position: fixed;
   width: 105%;
-  height: 105%;
+  height: 100%;
   justify-content: center;
   padding-top: 2em;
 }
@@ -83,7 +89,7 @@
   margin: auto;
   position: fixed;
   width: 105%;
-  height: 105%;
+  height: 100%;
   overflow: scroll;
   justify-content: center;
   padding-top: 5em;
@@ -102,9 +108,9 @@
 }
 
 .contact-grid h2 {
-  font-family: 'Rock Salt';
+  font-family: "Rock Salt";
   padding-bottom: 1em;
-  text-shadow: 3px 3px 3px  #FBAB5A;
+  text-shadow: 3px 3px 3px #fbab5a;
 }
 
 .contact-grid p {
@@ -145,16 +151,15 @@
   border: 2px solid black;
 }
 
-.navigation{
-  font-family: 'Rock Salt';
-  text-shadow: 3px 3px 3px  #FBAB5A;
+.navigation {
+  font-family: "Rock Salt";
+  text-shadow: 3px 3px 3px #fbab5a;
 }
 
 .resume {
-  font-family: 'Rock Salt';
+  font-family: "Rock Salt";
   text-shadow: 3px 3px 3px orange;
 }
-
 
 .banner-text {
   background-color: black;
@@ -165,11 +170,11 @@
 }
 
 .banner-text h1 {
-  font-family: 'Rock Salt';
+  font-family: "Rock Salt";
   font-size: 75px;
   font-weight: bold;
   color: white;
-  text-shadow: 4px 6px 4px  #FBAB5A;
+  text-shadow: 4px 6px 4px #fbab5a;
 }
 
 .banner-text hr {
@@ -179,9 +184,9 @@
 }
 
 .banner-text p {
-  font-family: 'Rock Salt';
+  font-family: "Rock Salt";
   color: white;
-  text-shadow: 2px 2px 2px  #FBAB5A;
+  text-shadow: 2px 2px 2px #fbab5a;
   font-size: 20px;
   padding: 0.5em;
 }
@@ -190,11 +195,11 @@
   justify-content: space-between;
   width: 50%;
   margin: auto;
-  text-shadow: 1px 1px 1px  #FBAB5A;
+  text-shadow: 1px 1px 1px #fbab5a;
 }
 
 .social-links i {
   color: white;
-  font-size: 5em;
-  padding: 10px;
+  font-size: 3.5em;
+  padding: 15px;
 }

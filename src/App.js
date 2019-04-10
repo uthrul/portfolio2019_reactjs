@@ -17,8 +17,8 @@ class App extends Component {
               <Link to="/contact">Contact</Link>
             </Navigation>
           </Header>
-          <Drawer title="Portfolio">
-            <Navigation style={{ fontSize: "30px", fontFamily: "Anton" }}>
+          <Drawer title="Saud Maruli S">
+            <Navigation style={{ fontSize: "30px", fontFamily: "Rock Salt" }}>
               <Link to="/landingpage">Home</Link>
               <Link to="/resume">Resume</Link>
               <Link to="/projects"> Example Projects</Link>

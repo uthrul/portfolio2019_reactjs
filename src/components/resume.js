@@ -43,12 +43,19 @@ class Resume extends Component {
             </p>
             <p>
               In 2015 I continued my studies which were postponed 
-              and graduated in 2017 with a degree in S1 in informatics engineering
-            </p>
-            <p>
+              and graduated in 2017 with a degree Informatics Engineering,
               And now I have passion in technology, 
               from creating web & mobile apps to creating game art.
             </p>
+            <p>
+              To support my ability to take courses and bootcamp both online and offline.
+            </p>
+            <p>
+              I have never worked at any company formally as a programmer or developer, 
+              I hope to be able to join to become a part of your company team either in an 
+              internship or as an employee.
+            </p>
+            
             <hr style={{ borderTop: "3px solid #FBAB5A" }} />{" "}
             <hp>Address : </hp>
             <p>
