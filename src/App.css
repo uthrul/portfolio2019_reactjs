@@ -24,19 +24,9 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 105%;
+  width: 100%;
   height: 100%;
   overflow: scroll;
-}
-
-.brand {
-  margin-left: 25px;
-}
-
-.shadow {
-  /* Use -webkit- only if supporting: Chrome < 54, iOS < 9.3, Android < 4.4.4 */
-  -webkit-filter: drop-shadow(1px 1px 1px black);
-  filter: drop-shadow(1px 1px 1px black);
 }
 
 *,
@@ -76,7 +66,7 @@
 .contact-body {
   margin: auto;
   position: fixed;
-  width: 105%;
+  width: 100%;
   height: 100%;
   justify-content: center;
   padding-top: 2em;
@@ -88,7 +78,7 @@
   background: linear-gradient(to right, #dc2430, #7b4397);
   margin: auto;
   position: fixed;
-  width: 105%;
+  width: 100%;
   height: 100%;
   overflow: scroll;
   justify-content: center;
