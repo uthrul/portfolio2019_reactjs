@@ -15,7 +15,7 @@ class Contact extends Component {
               className="avatar-img-3"
             />
             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>
-              Hello , My name Saud Maruli Sihombing A.K.A Codinghood.
+              Hello , My name Saud Maruli Sihombing A.K.A <a href="https://codinghood.herokuapp.com/">Codinghood</a>.
               You can find me speaking Whatsapp and sharing on Github.
             </p>
 
