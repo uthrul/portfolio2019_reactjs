@@ -16,7 +16,7 @@ class Project extends Component {
           <div class="grid-item">
             {/* react 1 */}
             <Card shadow={3} style={{ width: '512px', margin: 'auto',fontSize:'20', fontFamily: 'Rock Salt', textShadow: '3px 3px 3px  #FBAB5A'}}>
-              <CardTitle style={{ color: '#black', height: '176px', background: 'url(https://scontent.fcgk8-2.fna.fbcdn.net/v/t1.0-9/51097720_2390892774289197_114607920938745856_n.jpg?_nc_cat=107&_nc_eui2=AeFXjONcv8R2mkpv8vILf47SDeK4nM_J9jrhbIiJENZMa1-_Yadmzc5dT9YcjwcLzlx88rheLKwVd3jH6O-0NeX1ma-usuW2O4t1p3rrRUQ34Q&_nc_ht=scontent.fcgk8-2.fna&oh=6f85d3f45eb6e19b66e6d75eb4544239&oe=5CBDD8D2) center / cover' }}></CardTitle>
+              <CardTitle style={{ color: '#black', height: '176px', background: 'url(https://scontent.fcgk9-2.fna.fbcdn.net/v/t1.0-9/51369893_2390892770955864_8688166644452687872_o.jpg?_nc_cat=104&_nc_eui2=AeHxEGGHI3AqQc3PpjKAlcVYGuJkegSmN-ttwuv5glGGGQjslr83JNjOZQW4Ql4mAuus1asOnb8qlC437NcYh1bOTMRn-uR-3a6Vmz7Q9npVGA&_nc_ht=scontent.fcgk9-2.fna&oh=0c9fc7850999d6e8b3af3a522455b9fb&oe=5D6CC535) center / cover' }}></CardTitle>
               <CardText >
                 MovieTic
             </CardText >
@@ -34,7 +34,7 @@ class Project extends Component {
           <div class="grid-item">
             {/* react 2 */}
             <Card shadow={3} style={{ width: '512px', margin: 'auto', fontFamily: 'Rock Salt', textShadow: '3px 3px 3px  #FBAB5A'}}>
-              <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://scontent.fcgk8-1.fna.fbcdn.net/v/t1.0-9/50862988_2390892574289217_4658805138264162304_n.jpg?_nc_cat=108&_nc_eui2=AeH_W0k9xgADI_bu1hCxpbx70OnfWrDq2votNHdQnU6ByecbOAPM7A9vXuSFUVwZoxAGtbxz2SfsNx-ND9o1DJq7XEILeTG9i9Al0pVP6iLW_Q&_nc_ht=scontent.fcgk8-1.fna&oh=afbb0d8047eac836050ec680c287341c&oe=5CBBDF1A) center / cover' }}></CardTitle>
+              <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://scontent.fcgk8-1.fna.fbcdn.net/v/t1.0-9/50862988_2390892574289217_4658805138264162304_n.jpg?_nc_cat=108&_nc_eui2=AeH_W0k9xgADI_bu1hCxpbx70OnfWrDq2votNHdQnU6ByecbOAPM7A9vXuSFUVwZoxAGtbxz2SfsNx-ND9o1DJq7XEILeTG9i9Al0pVP6iLW_Q&_nc_ht=scontent.fcgk8-1.fna&oh=784b4de610ccf5f3a008c7ed4001ad15&oe=5D32861A) center / cover' }}></CardTitle>
               <CardText>
                 TO DO LIST
             </CardText>
@@ -94,7 +94,7 @@ class Project extends Component {
           <div class="grid-item">
             {/* rails 3 */}
             <Card shadow={3} style={{ width: '512px', margin: 'auto', fontFamily: 'Rock Salt', textShadow: '3px 3px 3px  #FBAB5A' }}>
-              <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://scontent.fcgk9-1.fna.fbcdn.net/v/t1.0-9/51396403_2390892667622541_4291181174954393600_o.jpg?_nc_cat=105&_nc_eui2=AeGGGf5uM-bE1dRI9TyWWhW81Rx6Si4NSwY6uUuWsbAJ-tWGeO0K2JxrL-Wam-DGgMiJvmk9g_Fyt-L7omAkZQBzxRUtWcix6GJJ1yM59FpICA&_nc_ht=scontent.fcgk9-1.fna&oh=fb43ba0f8905567590903eecb574d982&oe=5CB4733E) center / cover' }}></CardTitle>
+              <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://scontent.fcgk8-1.fna.fbcdn.net/v/t1.0-9/50984035_2390892670955874_664506216071823360_n.jpg?_nc_cat=111&_nc_eui2=AeHn35wOIqGdDvmgrSzS0jpsj--Lza3M6HuiY2AOo0W_yWOer9zTKpmQlB_UdFQLPh-dypGzAKoG78WUwDyloSj9w9OLgyEMcqjQ2pC9gIxbHg&_nc_ht=scontent.fcgk8-1.fna&oh=e0e2a219e16a3108b6106b98415705c3&oe=5D6DD442) center / cover' }}></CardTitle>
               <CardText>
                 Podcats Fm
             </CardText>
@@ -158,11 +158,14 @@ class Project extends Component {
                 color: '#fff', height: '176px', background: 'url(https://image.slidesharecdn.com/slides-180226015341/95/react-native-expo-11-638.jpg?cb=1519610124) center / cover'
               }}></CardTitle>
               <CardText>
-                React native & Expo
+                Design Mobile App React native & Expo
           </CardText>
               <CardActions border>
                 <a href="https://expo.io/@sauthrully">
                   <Button colored>Get Started</Button>
+                </a>
+                <a href="https://github.com/uthrul?utf8=✓&tab=repositories&q=expo&type=&language=" rel="noonpener norefrrer" target="balnk">
+                  <Button colored>GitHub</Button>
                 </a>
               </CardActions>
             </Card>
@@ -180,7 +183,7 @@ class Project extends Component {
                 Tower Defense Game
           </CardText>
               <CardActions border>
-                <a >
+                <a href="https://rocketbrain.itch.io/batak-kingdom-defense">
                   <Button colored>Get Started</Button>
                 </a>
               </CardActions>
