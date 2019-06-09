@@ -58,7 +58,7 @@ class Project extends Component {
           <div class="grid-item">
             {/* rails 1 */}
             <Card shadow={3} style={{ width: '512px', margin: 'auto', fontFamily: 'Rock Salt', textShadow: '3px 3px 3px  #FBAB5A' }}>
-              <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://scontent.fcgk8-2.fna.fbcdn.net/v/t1.0-9/50959503_2390892657622542_811034338249408512_o.jpg?_nc_cat=102&_nc_eui2=AeHEBifPGpsMd81lKr8AlSbHoLQ5KxQilBEH10Leubqk85YBbgi7TBWyzKUrzYjYVVut4h_tVVeW5IKYsrWIb16nnOGI6pg-bJJeu0Y9oKsfcg&_nc_ht=scontent.fcgk8-2.fna&oh=88e1a228903492b1e517cecb7dca4612&oe=5CEBC1AD) center / cover' }}></CardTitle>
+              <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://scontent.fcgk8-2.fna.fbcdn.net/v/t1.0-9/51431095_2390892654289209_7197394705875730432_n.jpg?_nc_cat=109&_nc_eui2=AeGT8HE0XBQv585V6_BETo0rUlkj8Ji8If5Vsk1L0FDj_I4OBmp3m15xp-8UgBofndE0F27B02j9Z2DXBU92DWYV5uH93GhCA-I0SYy5Idqidg&_nc_ht=scontent.fcgk8-2.fna&oh=0313c12a09fe8b80bc957b7041b4695f&oe=5D9E71F8) center / cover' }}></CardTitle>
               <CardText >
                 Motionpix
             </CardText>
@@ -76,7 +76,7 @@ class Project extends Component {
           <div class="grid-item">
             {/* rails 2 */}
             <Card shadow={3} style={{ width: '512px', margin: 'auto', fontFamily: 'Rock Salt', textShadow: '3px 3px 3px  #FBAB5A' }}>
-              <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://scontent.fcgk9-1.fna.fbcdn.net/v/t1.0-9/51462489_2390892600955881_5723469729272692736_o.jpg?_nc_cat=110&_nc_eui2=AeFTXB2y0nyZpvmX8YZbYdofxHDaZdEICdufhIsAZFu4suy_jZEp52fJa2iLXBK-_RwpjjXCv9j-iP2mLeLIPXwj9jMji4Mn2JcKDqYxCZmDUw&_nc_ht=scontent.fcgk9-1.fna&oh=0b42aed2c3931f3e57743b8c20e7b606&oe=5CC198BF) center / cover' }}></CardTitle>
+              <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://scontent.fcgk9-1.fna.fbcdn.net/v/t1.0-9/51462489_2390892600955881_5723469729272692736_o.jpg?_nc_cat=110&_nc_eui2=AeE2tQ7DvZTF6uDy191_68XlaU5CKNNQeOWNpF2jSFkr-VeeXwnUDCBbq9MxvNYU-tVKQtlUu5JKJGdUSJnAmki3AX9cmU5nh3lvPl6x0k1-Pw&_nc_ht=scontent.fcgk9-1.fna&oh=be083b52f5155e5fbb8ee02a3d1e46fa&oe=5D8759BF) center / cover' }}></CardTitle>
               <CardText>
                 Blog
             </CardText>
@@ -112,7 +112,7 @@ class Project extends Component {
           <div class="grid-item">
             {/* rails 4 */}
             <Card shadow={3} style={{ width: '512px', margin: 'auto', fontFamily: 'Rock Salt', textShadow: '3px 3px 3px  #FBAB5A' }}>
-              <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://scontent.fcgk9-2.fna.fbcdn.net/v/t1.0-9/50979538_2390892674289207_2929448195891134464_o.jpg?_nc_cat=106&_nc_eui2=AeHcMsHAfL-VLSD_b4j4R9J0DzHdauGEgfqYt3bZ2tSTI4L8UJ7nvVaOOJqODNOzjqBbXqrbqqowY4go126yZ8431HGeLkVQLYnSp99IbhAHoQ&_nc_ht=scontent.fcgk9-2.fna&oh=c8e296f6dfc15952b2aff0b67cb8bc67&oe=5CF20553) center / cover' }}></CardTitle>
+              <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://scontent.fcgk8-1.fna.fbcdn.net/v/t1.0-9/51014128_2390892677622540_5152818323964035072_n.jpg?_nc_cat=100&_nc_eui2=AeEjJW_BpVJZRt3a4gevMwsvdRxVvZvACORPXdqtI6suU4gTW0pYUoMvAePz5uNRyL-yfNdjanpVwoLLvulVPKj9gQsjgYOJCtE8LfvLa3LFnA&_nc_ht=scontent.fcgk8-1.fna&oh=31197e002f1028bc0f52e85deb0cc736&oe=5D8FB96C) center / cover' }}></CardTitle>
               <CardText>
                 Stockerbitcoin
             </CardText>
