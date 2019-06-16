@@ -15,6 +15,13 @@ class App extends Component {
               <Link to="/resume">Resume</Link>
               <Link to="/projects">Example Projects</Link>
               <Link to="/contact">Contact</Link>
+              <a
+                href="https://codinghood.herokuapp.com/"
+                rel="noonpener norefrrer"
+                target="balnk"
+              >
+                MyBlog
+              </a>
             </Navigation>
           </Header>
           <Drawer title="Saud Maruli S">
@@ -23,6 +30,13 @@ class App extends Component {
               <Link to="/resume">Resume</Link>
               <Link to="/projects"> Example Projects</Link>
               <Link to="/contact">Contact</Link>
+              <a
+                href="https://codinghood.herokuapp.com/"
+                rel="noonpener norefrrer"
+                target="balnk"
+              >
+                MyBlog
+              </a>
             </Navigation>
           </Drawer>
           <Content>
