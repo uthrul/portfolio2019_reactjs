@@ -16,7 +16,7 @@ class Project extends Component {
           <div class="grid-item">
             {/* react 1 */}
             <Card shadow={3} style={{ width: '512px', margin: 'auto',fontSize:'20', fontFamily: 'Rock Salt', textShadow: '3px 3px 3px  #FBAB5A'}}>
-              <CardTitle style={{ color: '#black', height: '176px', background: 'url(https://scontent.fcgk9-2.fna.fbcdn.net/v/t1.0-9/51369893_2390892770955864_8688166644452687872_o.jpg?_nc_cat=104&_nc_eui2=AeHxEGGHI3AqQc3PpjKAlcVYGuJkegSmN-ttwuv5glGGGQjslr83JNjOZQW4Ql4mAuus1asOnb8qlC437NcYh1bOTMRn-uR-3a6Vmz7Q9npVGA&_nc_ht=scontent.fcgk9-2.fna&oh=0c9fc7850999d6e8b3af3a522455b9fb&oe=5D6CC535) center / cover' }}></CardTitle>
+              <CardTitle style={{ color: '#black', height: '176px', background: 'url(https://scontent.fcgk8-2.fna.fbcdn.net/v/t1.0-9/51097720_2390892774289197_114607920938745856_n.jpg?_nc_cat=107&_nc_eui2=AeEKwpWafzXycg_2SetmcJrhrlH3H6RchPQahs5Goi9QX049KjcjemVgXYW-byqdkkJdwzXocBZ0z5bvPYxkkRVkZnB6VoNIEk8HcppIhKVeTA&_nc_oc=AQkViIT3i46crnPjfgFWWqG9sEGkgb9agqYfpTp_sjmldB5NgmlNkDUFQXv-_023nFs&_nc_ht=scontent.fcgk8-2.fna&oh=e8287e43893226319c8e80a74303a259&oe=5E21CDD2) center / cover' }}></CardTitle>
               <CardText >
                 MovieTic
             </CardText >
@@ -34,7 +34,7 @@ class Project extends Component {
           <div class="grid-item">
             {/* react 2 */}
             <Card shadow={3} style={{ width: '512px', margin: 'auto', fontFamily: 'Rock Salt', textShadow: '3px 3px 3px  #FBAB5A'}}>
-              <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://scontent.fcgk8-1.fna.fbcdn.net/v/t1.0-9/50862988_2390892574289217_4658805138264162304_n.jpg?_nc_cat=108&_nc_eui2=AeH_W0k9xgADI_bu1hCxpbx70OnfWrDq2votNHdQnU6ByecbOAPM7A9vXuSFUVwZoxAGtbxz2SfsNx-ND9o1DJq7XEILeTG9i9Al0pVP6iLW_Q&_nc_ht=scontent.fcgk8-1.fna&oh=784b4de610ccf5f3a008c7ed4001ad15&oe=5D32861A) center / cover' }}></CardTitle>
+              <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://scontent.fcgk8-1.fna.fbcdn.net/v/t1.0-9/50862988_2390892574289217_4658805138264162304_n.jpg?_nc_cat=108&_nc_eui2=AeGzn02ojswGi4i6GI2ushlBZjeOuPR587jc3Axg9iDHEIonJSSeI8R-XUqamM26XYurcsHLkPeOcPSatiLPJE13aVQqsyZ_r4P9cN_I2eSTcw&_nc_oc=AQkzjCi5yU0WgZ0QDRBhDM5CLiFsJQakAQJlTEX-tSlVztMkBPFkYdYiYcn_z3srCVs&_nc_ht=scontent.fcgk8-1.fna&oh=50e11dd3f79d0bc23071ffe6d7365a8c&oe=5E1FD41A) center / cover' }}></CardTitle>
               <CardText>
                 TO DO LIST
             </CardText>
@@ -58,7 +58,7 @@ class Project extends Component {
           <div class="grid-item">
             {/* rails 1 */}
             <Card shadow={3} style={{ width: '512px', margin: 'auto', fontFamily: 'Rock Salt', textShadow: '3px 3px 3px  #FBAB5A' }}>
-              <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://scontent.fcgk8-2.fna.fbcdn.net/v/t1.0-9/51431095_2390892654289209_7197394705875730432_n.jpg?_nc_cat=109&_nc_eui2=AeGT8HE0XBQv585V6_BETo0rUlkj8Ji8If5Vsk1L0FDj_I4OBmp3m15xp-8UgBofndE0F27B02j9Z2DXBU92DWYV5uH93GhCA-I0SYy5Idqidg&_nc_ht=scontent.fcgk8-2.fna&oh=0313c12a09fe8b80bc957b7041b4695f&oe=5D9E71F8) center / cover' }}></CardTitle>
+              <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://scontent.fcgk8-2.fna.fbcdn.net/v/t1.0-9/51431095_2390892654289209_7197394705875730432_n.jpg?_nc_cat=109&_nc_eui2=AeEbJ5Je373Cd6ZhR2FUFuNwo6DlIsyAnEjhpcZbwlzs21HGYfmWlNP4iQvBila6YsmUI5ZRjiUWenE85WD1HrKGm5uTFK9ltpfSHNkLdN2aMw&_nc_oc=AQnU995lHAfESWOPhbedX_xb9F17PZQ3S_Ovg2MxeRa7wJds1UW74KlCRqZLPgggHTw&_nc_ht=scontent.fcgk8-2.fna&oh=f46d60ec5115b880dadcd289efdbe675&oe=5E6432F8) center / cover' }}></CardTitle>
               <CardText >
                 Motionpix
             </CardText>
@@ -76,7 +76,7 @@ class Project extends Component {
           <div class="grid-item">
             {/* rails 2 */}
             <Card shadow={3} style={{ width: '512px', margin: 'auto', fontFamily: 'Rock Salt', textShadow: '3px 3px 3px  #FBAB5A' }}>
-              <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://scontent.fcgk9-1.fna.fbcdn.net/v/t1.0-9/51462489_2390892600955881_5723469729272692736_o.jpg?_nc_cat=110&_nc_eui2=AeE2tQ7DvZTF6uDy191_68XlaU5CKNNQeOWNpF2jSFkr-VeeXwnUDCBbq9MxvNYU-tVKQtlUu5JKJGdUSJnAmki3AX9cmU5nh3lvPl6x0k1-Pw&_nc_ht=scontent.fcgk9-1.fna&oh=be083b52f5155e5fbb8ee02a3d1e46fa&oe=5D8759BF) center / cover' }}></CardTitle>
+              <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://scontent.fcgk9-2.fna.fbcdn.net/v/t1.0-9/50894827_2390892604289214_4956696746995482624_n.jpg?_nc_cat=101&_nc_eui2=AeFs9PleQepF4jdoZFZVlxiTH31Kzp02pEvfCJWwP5pUIo_DOVziTrE5jPic0NGjFgR41d4cwI53oe37kiWcxqFCcU2QBs5n7kivdtI6aboqPg&_nc_oc=AQmTjK611kB9AOm9sh20JetaTiCM4CXM08ffgEwhTFkn51EOuutYqXUG3RfvmeFn0S4&_nc_ht=scontent.fcgk9-2.fna&oh=f5ef5fd6410e609c3eb16cbecd94e2be&oe=5E1A8F12) center / cover' }}></CardTitle>
               <CardText>
                 Blog
             </CardText>
@@ -94,7 +94,7 @@ class Project extends Component {
           <div class="grid-item">
             {/* rails 3 */}
             <Card shadow={3} style={{ width: '512px', margin: 'auto', fontFamily: 'Rock Salt', textShadow: '3px 3px 3px  #FBAB5A' }}>
-              <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://scontent.fcgk8-1.fna.fbcdn.net/v/t1.0-9/50984035_2390892670955874_664506216071823360_n.jpg?_nc_cat=111&_nc_eui2=AeHn35wOIqGdDvmgrSzS0jpsj--Lza3M6HuiY2AOo0W_yWOer9zTKpmQlB_UdFQLPh-dypGzAKoG78WUwDyloSj9w9OLgyEMcqjQ2pC9gIxbHg&_nc_ht=scontent.fcgk8-1.fna&oh=e0e2a219e16a3108b6106b98415705c3&oe=5D6DD442) center / cover' }}></CardTitle>
+              <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://scontent.fcgk8-1.fna.fbcdn.net/v/t1.0-9/50984035_2390892670955874_664506216071823360_n.jpg?_nc_cat=111&_nc_eui2=AeG4FmYS9g6JOlWMU7UpOufe4R6QCpfnPewqDkkqD83yFHGiS4loQ67QUN58LRD4amkq6vVxVdw0S2sRKXuLB9QwbdQXSlJp_k2lwHbekyFjog&_nc_oc=AQm8vyGKM0mAwwJ4t3UAbKWe-Agno6agreu3G3iDOLgtb0w5ZqWfnhfkX8eGfB4i7J8&_nc_ht=scontent.fcgk8-1.fna&oh=3eeebc73b869af588d0df988d1746c01&oe=5E5B2242) center / cover' }}></CardTitle>
               <CardText>
                 Podcats Fm
             </CardText>
@@ -112,7 +112,7 @@ class Project extends Component {
           <div class="grid-item">
             {/* rails 4 */}
             <Card shadow={3} style={{ width: '512px', margin: 'auto', fontFamily: 'Rock Salt', textShadow: '3px 3px 3px  #FBAB5A' }}>
-              <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://scontent.fcgk8-1.fna.fbcdn.net/v/t1.0-9/51014128_2390892677622540_5152818323964035072_n.jpg?_nc_cat=100&_nc_eui2=AeEjJW_BpVJZRt3a4gevMwsvdRxVvZvACORPXdqtI6suU4gTW0pYUoMvAePz5uNRyL-yfNdjanpVwoLLvulVPKj9gQsjgYOJCtE8LfvLa3LFnA&_nc_ht=scontent.fcgk8-1.fna&oh=31197e002f1028bc0f52e85deb0cc736&oe=5D8FB96C) center / cover' }}></CardTitle>
+              <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://scontent.fcgk8-1.fna.fbcdn.net/v/t1.0-9/51014128_2390892677622540_5152818323964035072_n.jpg?_nc_cat=100&_nc_eui2=AeFMgcxMqhUXwpZhVgVnB7HwdIJsh0gkZi5RehUXDTkJMv2g8hPVX4FMYTfievLi7o5fyaE8lGVVwfpGbYj72KyRw2faH7YH_c55xPxkEYXjmw&_nc_oc=AQneKKTDeHDRPNwDojEeoJMsOb7hcUbxIlQ5Eb6AsQcvB-VtntdihpyXsQCdBLLSh18&_nc_ht=scontent.fcgk8-1.fna&oh=6eb3f7967f710c77fcd5c6f8514cdaf5&oe=5E2DED6C) center / cover' }}></CardTitle>
               <CardText>
                 Stockerbitcoin
             </CardText>
@@ -130,7 +130,7 @@ class Project extends Component {
           <div class="grid-item">
             {/* rails 5 */}
             <Card shadow={3} style={{ width: '512px', margin: 'auto', fontFamily: 'Rock Salt', textShadow: '3px 3px 3px  #FBAB5A' }}>
-              <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://scontent.fcgk9-1.fna.fbcdn.net/v/t1.0-9/52276859_2424960627549078_6132890531895705600_o.jpg?_nc_cat=102&_nc_eui2=AeGcIdKmpldFyEMnx-sLKUrGPlfF_z2J7U9Njo2x7wJzXw0M6tbQ2XrXzehZSDI37OCMwhfjyo1k9SzuoBPc-OXAQkxAgpMvccMJ3wGC4et9ig&_nc_ht=scontent.fcgk9-1.fna&oh=7928a0ec984ecdca95716a0243c91f78&oe=5D28759A) center / cover' }}></CardTitle>
+              <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://scontent.fcgk8-1.fna.fbcdn.net/v/t1.0-9/52591437_2424960630882411_2359201956322344960_n.jpg?_nc_cat=111&_nc_eui2=AeFjKOqXuOzBTbvZ1PiB2_qDAzd64fnFQCw45J2EOwjvPfIRJgfzzkRbfNx_d-7HMza1YiTp79XBAYhPSnWzVnY59RC6s8oxYhH93-4ym0b4Mw&_nc_oc=AQlWYA1sG2esj4GI0mY4h1P2ErME0zbU12pL9u_yOez6gMW2yTWDRfXXsK6X8x0e0ss&_nc_ht=scontent.fcgk8-1.fna&oh=ae0f280db30252af6f21156824e811a9&oe=5E64E998) center / cover' }}></CardTitle>
               <CardText>
                 Food Anthem
             </CardText>

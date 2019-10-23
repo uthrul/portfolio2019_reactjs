@@ -128,8 +128,8 @@
 .avatar-img-1 {
   height: 250px;
   margin-top: 2.5cm;
-  border-radius: 15%;
-  border: 2.5px solid orange;
+  border-radius: 50%;
+  border: 2px solid orange;
 }
 .avatar-img-2 {
   height: 300px;
