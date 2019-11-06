@@ -30,8 +30,6 @@
   background: -webkit-linear-gradient(to right, #cf8e93, #7b4397);
   background: linear-gradient(to right, #dc2430, #7b4397);
   text-align: center;
-  top: 0;
-  left: 0;
   height: 100%;
   background-attachment: fixed;
 }
@@ -123,7 +121,7 @@
 
 .avatar-img-1 {
   height: 250px;
-  margin-top: 2.5cm;
+  margin-top: 2cm;
   border-radius: 50%;
   border: 2px solid orange;
 }
@@ -194,8 +192,21 @@
 }
 
 footer {
-  background-color: #444444;
-  min-height: 8vh;
+  background: #833ab4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
