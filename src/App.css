@@ -122,6 +122,7 @@
 .avatar-img-1 {
   height: 250px;
   margin-top: 2cm;
+  margin-bottom: 0.5cm;
   border-radius: 50%;
   border: 2px solid orange;
 }
@@ -205,7 +206,7 @@ footer {
     #fd1d1d,
     #833ab4
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  font-size: 40px;
   min-height: 10vh;
   display: flex;
   flex-direction: column;
