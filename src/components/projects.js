@@ -205,10 +205,10 @@ class Project extends Component {
           </p>
         </div>
         <Tabs style={{ fontFamily: 'Anton', }} activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-          <Tab>ReactJs</Tab>
-          <Tab>RubyOnRails</Tab>
+          <Tab>React</Tab>
+          <Tab>Rails FrontEnd</Tab>
           <Tab>ReactNative</Tab>
-          <Tab>GAME</Tab>
+          <Tab>DESIGN & GAME</Tab>
         </Tabs>
 
         <Grid>
