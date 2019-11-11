@@ -8,7 +8,7 @@ class Resume extends Component {
   render() {
     return (
       <div>
-        <Grid >
+        <Grid>
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
               <img
@@ -17,10 +17,11 @@ class Resume extends Component {
                 className="avatar-img-2"
               />
             </div>
-            <h2 className="resume"
+            <h2
+              className="resume"
               style={{
                 paddingTop: "2em",
-                fontSize: "45px",
+                fontSize: "35px"
               }}
             >
               Saud Maruli S
@@ -36,26 +37,26 @@ class Resume extends Component {
             </h4>
             <hr style={{ borderTop: "3px solid #FBAB5A" }} />
             <p>
-              I am 32 years old, I have worked hard from 2008 to 2017 
-              in the retail world such as mini markets, super markets, 
-              factory outlets, and retail gadgets, 
-              starting from salespeople to store managers and spv areas.
+              I am 32 years old, I have worked hard from 2008 to 2017 in the
+              retail world such as mini markets, super markets, factory outlets,
+              and retail gadgets, starting from salespeople to store managers
+              and spv areas.
             </p>
             <p>
-              In 2015 I continued my studies which were postponed 
-              and graduated in 2017 with a degree Informatics Engineering,
-              And now I have passion in technology, 
-              from creating web & mobile apps to creating game art.
+              In 2015 I continued my studies which were postponed and graduated
+              in 2017 with a degree Informatics Engineering, And now I have
+              passion in technology, from creating web & mobile apps to creating
+              game art.
             </p>
             <p>
-              To support my ability to take courses and bootcamp both online and offline.
+              To support my ability to take courses and bootcamp both online and
+              offline.
             </p>
             <p>
-              I have never worked at any company formally as a programmer or developer, 
-              I hope to be able to join to become a part of your company team either in an 
-              internship or as an employee.
+              I have never worked at any company formally as a programmer or
+              developer, I hope to be able to join to become a part of your
+              company team either in an internship or as an employee.
             </p>
-            
             <hr style={{ borderTop: "3px solid #FBAB5A" }} />{" "}
             <hp>Address : </hp>
             <p>
@@ -71,7 +72,9 @@ class Resume extends Component {
             <hr style={{ borderTop: "3px solid #FBAB5A" }} />{" "}
           </Cell>
           <Cell className="resume-right-col" col={8}>
-            <h2 style={{ fontSize: "30px", fontFamily: "Rock Salt" }}>Education</h2>
+            <h2 style={{ fontSize: "30px", fontFamily: "Rock Salt" }}>
+              Education
+            </h2>
             <Education
               startYear={2009}
               endYear={2016}
@@ -88,22 +91,36 @@ class Resume extends Component {
               startYear={2007}
               endYear={2017}
               jobName="Non Programmer Job"
-              jobDescription="Retail Worker"
+              jobDescription="Retail Sales"
             />
 
             <Experience
               startYear={2016}
               endYear={2019}
               jobName="Programming Part Time Jobs"
-              jobDescription="Creating a Simple Web and Mobile App"
+              jobDescription="FrontEnd & UI Web and Mobile App"
             />
 
             <hr style={{ borderTop: "3px solid #FBAB5A" }} />
-            <h2 style={{ fontSize: "30px", fontFamily: "Rock Salt" }}>Skills</h2>
-            <Skills skill="Javascript" progress={25} />
-            <Skills skill="HTML/CSS" progress={75} />
-            <Skills skill="R A I L S" progress={50} />
-            <Skills skill="R E A C T" progress={50} />
+            <h2 style={{ fontSize: "30px", fontFamily: "Rock Salt" }}>
+              Skills
+            </h2>
+            <h2 style={{ fontSize: "10px", fontFamily: "Rock Salt" }}>
+              GENERAL SKILL
+            </h2>
+            <Skills skill="Communication & Leadership" progress={75} />
+            <Skills skill="Seles " progress={75} />
+
+            <h2 style={{ fontSize: "10px", fontFamily: "Rock Salt" }}>
+              CODING
+            </h2>
+            <Skills skill="HTML/CSS/JS" progress={50} />
+            <Skills skill="REACT NATIVE UI" progress={50} />
+            <Skills skill="REACT UI" progress={50} />
+            <h2 style={{ fontSize: "10px", fontFamily: "Rock Salt" }}>
+              DESIGN
+            </h2>
+            <Skills skill="INKSCAPE" progress={75} />
           </Cell>
         </Grid>
       </div>
