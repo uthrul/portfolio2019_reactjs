@@ -98,7 +98,7 @@ class Resume extends Component {
               startYear={2016}
               endYear={2019}
               jobName="Programming Part Time Jobs"
-              jobDescription="FrontEnd & UI Web and Mobile App"
+              jobDescription="Junior FrontEnd & UI Web and Mobile App"
             />
 
             <hr style={{ borderTop: "3px solid #FBAB5A" }} />
